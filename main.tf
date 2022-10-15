@@ -1,4 +1,4 @@
-resource "newrelic_api_access_key" "newrelic_aws_access_key" {
+resource "newrelic_api_access_key" "this" {
   name        = "${local.stack}-ingest-license-key"
   account_id  = var.account_id
   key_type    = var.key_type
